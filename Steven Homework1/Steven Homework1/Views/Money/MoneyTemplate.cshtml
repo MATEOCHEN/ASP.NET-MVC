@@ -77,15 +77,15 @@
                         <th>日期</th>
                         <th>金額</th>
                     </tr>
-                 @for (var i = 0; i < @Model.rd.Id.Length; i++)
-                 {
-                     <tr>
-                         <td>@Model.rd.Id[i]</td>
-                         <td>@Model.rd.type[i]</td>
-                         <td>@Model.rd.DateStack[i]</td>
-                         <td>@Model.rd.moneyStack[i]</td>
-                     </tr>
-                 }                          
+                    @for (var i = 0; i < @Model.Id.Length; i++)
+            {
+                <tr>
+                    <td>@Model.Id[i]</td>
+                    <td>@Model.type[i]</td>
+                    <td>@Model.DateStack[i]</td>
+                    <td>@Model.moneyStack[i]</td>
+                </tr>
+    }
                 </table>
             </div>
         </div>

@@ -17,8 +17,11 @@ namespace Steven_Homework1.Controllers
         }
         public ActionResult MoneyTemplate()
         {
-            var DataPassModel = new DataPassModel { rd = new RandomData() };
-            return View(DataPassModel);
+            var DataPassModel = new DataPassModel
+            {
+                rd = new RandomData()
+            };
+            return View(DataPassModel.rd);
         }
     }
 }
