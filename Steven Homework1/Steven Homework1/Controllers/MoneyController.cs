@@ -13,15 +13,15 @@ namespace Steven_Homework1.Controllers
         // GET: Money
         public ActionResult Index()
         {
-            return View();
+            return View("./About");
         }
         public ActionResult MoneyTemplate()
         {
             var DataPassModel = new DataPassModel
             {
-                rd = new RandomData()
+                db = new VirtualDB()
             };
-            return View(DataPassModel.rd);
+            return View(DataPassModel.db.DB);
         }
     }
 }

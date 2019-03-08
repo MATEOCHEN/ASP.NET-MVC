@@ -149,6 +149,7 @@
     </Compile>
     <Compile Include="Models\RandomData.cs" />
     <Compile Include="Models\ViewModel\DataPassModel.cs" />
+    <Compile Include="Models\VirtualDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

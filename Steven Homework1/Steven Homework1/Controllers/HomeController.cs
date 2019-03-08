@@ -11,7 +11,7 @@ namespace Steven_Homework1.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("./Contact");
         }
 
         public ActionResult About()
